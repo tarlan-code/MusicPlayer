@@ -50,3 +50,6 @@ body{
     font-family: "Gotham";
 }
 
+.nav-link:hover{
+    color: 	#b3b3b3 !important;
+}
