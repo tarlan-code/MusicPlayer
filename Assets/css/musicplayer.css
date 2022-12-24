@@ -1,0 +1,74 @@
+.now-played-music-image{
+    width: 4.5em;
+    height: 4.5em;
+}
+
+.music-player{
+    position: fixed;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+}
+
+.music-player-line{
+    color: white;
+    width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+}
+
+
+.progress-bar{
+    height: 4px;
+    border-radius: 10px;
+    width: 60%;
+    background-color: #ccc4;
+}
+.progress{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #ccc4;
+}
+.progress-bar:hover .progress{
+    background-color: green;
+}
+.progress-bar:hover .progress::after{
+    content: "";
+    position: absolute;
+    width: var(1em);
+    height: var(1em);
+    right: 0;
+    border-radius: 50%;
+    background-color: #ccc4;
+    transform: translate(50%, calc(2px - 50%));
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+      overflow: hidden;
+      width: 80px;
+      background-color: #9a905d;
+    }
+    
+    input[type='range']::-webkit-slider-runnable-track {
+      height: 10px;
+      -webkit-appearance: none;
+      color: #13bba4;
+      margin-top: -1px;
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      width: 10px;
+      -webkit-appearance: none;
+      height: 10px;
+      cursor: pointer;
+      background: #434343;
+      box-shadow: -80px 0 0 80px green;
+    }
+
+}
