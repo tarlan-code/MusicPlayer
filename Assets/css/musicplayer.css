@@ -50,6 +50,7 @@
 
   .seek_slider:hover,
   .volume_slider:hover {
+    background-color: green;
     opacity: 1.0;
   }
 
