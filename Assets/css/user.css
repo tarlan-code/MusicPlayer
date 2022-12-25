@@ -10,3 +10,22 @@
   object-fit: cover;
   object-position: center;
 }
+
+.editprofile>a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.editprofile>a:hover{
+  color: #6c757d !important;
+}
+
+#username>a{
+  font-size: 20px;
+  color: green;
+  text-decoration: none;
+}
+
+#username>a:hover{
+  color: red;
+}
