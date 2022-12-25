@@ -18,10 +18,11 @@
 
 body{
     height: 100vh ;
-    overflow: hidden;
+  
 }
 
 .left-menu-bar{
-    height: 100vh;
+  position: relative;
+    max-height: 100vmax;
     background-color: black;
 }
