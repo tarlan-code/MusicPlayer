@@ -1,3 +1,6 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 
 .top-categories{margin-bottom: 200px;}
 .card-img-top{
@@ -31,3 +34,6 @@ color: white;
 font-size: 50px;
 }
 
+h1{
+    font-size: 90px;
+}
