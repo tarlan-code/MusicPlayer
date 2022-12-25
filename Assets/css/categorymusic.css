@@ -1,3 +1,4 @@
+
 .top-categories{margin-bottom: 200px;}
 .card-img-top{
     width: 70%;
@@ -20,8 +21,16 @@
 
 .cat-img
 {
-height: 70px;
-width: 70px;
-background-color: red;
+   
+height: 150px;
+width: 150px;
+border-radius: 10%;
+font-family: 'Roboto';
+font-weight: bold;
+color: white;
+font-size: 50px;
 }
 
+.cat-img{
+    
+}
