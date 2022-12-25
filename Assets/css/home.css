@@ -1,8 +1,47 @@
-
-.main-container{
-    margin-left: 0 !important;
-  }
-body{
-    height: 100vh ;
-    
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/SpotifyFont/Gotham-Medium.eot');
+    src: url('../fonts/SpotifyFont/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SpotifyFont/Gotham-Medium.woff2') format('woff2'),
+        url('../fonts/SpotifyFont/Gotham-Medium.woff') format('woff'),
+        url('../fonts/SpotifyFont/Gotham-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
+
+
+body{
+    font-family: 'Gotham';
+}
+.card-img-top{
+    width: 70%;
+    height: auto;
+}
+
+.card-title{
+    font-size:medium;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.col>a{
+    text-decoration: none;
+}
+
+.col:hover{
+    background-color: rgba(0, 0, 0, 0.084);
+}
+
+.topmusic{
+    margin-bottom: 200px;
+}
+
+.topmusic>ul>a{
+    text-decoration: none;
+}
+
+.topmusic>ul>a>li:hover{
+    background-color: #6c757db7 !important;
+}
+
