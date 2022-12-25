@@ -1,23 +1,24 @@
 .wrapper {
-  padding: 30px;
+  padding: 10px;
 }
 
 .image--cover {
-  width: 170px;
-  height: 170px;
+  width: 190px;
+  height: 190px;
   border-radius: 50%;
 
   object-fit: cover;
   object-position: center;
 }
 
-.editprofile>a{
+a{
   cursor: pointer;
   text-decoration: none;
 }
 
-.editprofile>a:hover{
+a:hover {
   color: #6c757d !important;
+  
 }
 
 #username>a{
@@ -32,10 +33,11 @@
 
 .card {
   background-color: rgb(0, 0, 0);
-  border-radius: 10px;
+  border-radius: 5px;
 
 }
 
-.followers{
+.playlists{
   margin-bottom: 200px;
 }
+
