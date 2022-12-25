@@ -1,0 +1,27 @@
+.top-categories{margin-bottom: 200px;}
+.card-img-top{
+    width: 70%;
+    height: auto;
+}
+
+.card-title{
+    font-size:medium;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.col>a{
+    text-decoration: none;
+}
+
+.col:hover{
+    background-color: rgba(0, 0, 0, 0.084);
+}
+
+.cat-img
+{
+height: 70px;
+width: 70px;
+background-color: red;
+}
+
