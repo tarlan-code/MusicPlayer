@@ -1,0 +1,33 @@
+.card-img-top{
+    width: 70%;
+    height: auto;
+}
+.card-title{
+    font-size:medium;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.col>a{
+    text-decoration: none;
+}
+
+.col:hover{
+    background-color: rgba(0, 0, 0, 0.084);
+}
+
+.topmusic{
+    margin-bottom: 200px;
+}
+
+.topmusic>ul>a{
+    text-decoration: none;
+}
+
+.topmusic>ul>a>li:hover{
+    background-color: #6c757db7 !important;
+}
+
+.top-artists{
+    margin-bottom: 200px;
+}
