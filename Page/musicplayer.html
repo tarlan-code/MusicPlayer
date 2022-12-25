@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="/Assets/css/musicplayer.css">
 
-<div class="music-player">
+<div class="music-player bg-dark">
     <div class="container py-3">
         <div class="row">
             <div class="col-3 d-flex">
@@ -8,31 +8,32 @@
                     <img src="../Assets/img/download.jpeg" class="img-fluid" alt="">
                 </div>
                 <div class="music-info ms-3 d-flex flex-column">
-                    <p class="text-white">İmkansızım <button class="bg-transparent"><i class="fa-light fa-heart ms-2 text-white"></i></button></p>
+                    <p class="text-white">İmkansızım <button class="bg-transparent border border-0"><i class="fa-light fa-heart ms-2 text-white"></i></button></p>
                     <p class="text-white" >Ezhel</p>
                 </div>
               
             </div>
             <div class="col-6">
                 <div class="music-player-controller d-flex justify-content-center align-items-center text-white">
-                    <button class="bg-transparent"><i class="fa-solid fa-random me-3 text-white"></i></button>
-                    <button class="bg-transparent"><i class="fa-solid fa-step-backward me-3 text-white fa-lg"></i></button>
-                    <button class="bg-transparent"><i class="fa-solid fa-play-circle me-3 text-white fa-2xl"></i></button>
-                    <button class="bg-transparent"><i class="fa-solid fa-step-forward me-3 text-white fa-lg"></i></button>
-                    <button class="bg-transparent"><i class="fa-solid fa-repeat me-3 text-white"></i></button>
+                    <button class="bg-transparent border border-0"><i class="fa-solid fa-random me-3 text-white"></i></button>
+                    <button class="bg-transparent border border-0 "><i class="fa-solid fa-step-backward me-3 text-white fa-lg"></i></button>
+                    <button class="bg-transparent border border-0 "><i class="fa-solid fa-play-circle me-3 text-white fa-2xl"></i></button>
+                    <button class="bg-transparent border border-0 "><i class="fa-solid fa-step-forward me-3 text-white fa-lg"></i></button>
+                    <button class="bg-transparent border border-0"><i class="fa-solid fa-repeat me-3 text-white"></i></button>
                 </div>
                 <div class="music-player-line mt-2">
-                    <span>0:49</span>
-                    <div class="progress-bar">
-                        <div class="progress"></div>
-                    </div>
-                    <span>3:15</span>
+                    <div class="slider_container">
+                        <div class="current-time me-2">00:00</div>
+                        <input type="range" min="1" max="100" value="0" class="seek_slider">
+                        <div class="total-duration ms-2">04:00</div>
+                      </div>
                 </div>
             </div>
             <div class="col-3 my-auto">
-                <div class="music-player-volume d-flex justify-content-end align-items-center">
-                    <button class="bg-transparent"><i class="fa-solid fa-volume-up me-3 text-white"></i></button>
-                    <input type="range" name="" id="volume">
+                <div class="slider_container">
+                    <i class="fa fa-volume-down text-white"></i>
+                    <input type="range" min="1" max="100" value="99" class="volume_slider">
+                    <i class="fa fa-volume-up text-white"></i>
                 </div>
                 
             </div>

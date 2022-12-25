@@ -1,25 +1,29 @@
-#logo{
-    width: 9vw;
+.logo{
+  font-family: 'Righteous', cursive;
 }
-
-.body-left-container>ul{
+/* .container, .container-fluid { min-width: 1170px; } Stop Responsive */
+.body-left-container>a>li,.body-left-container>ul>a>li{
     list-style-type: none;
   }
 
-.body-left-container>ul>a{
+.body-left-container>a,.body-left-container>ul>a{
     text-decoration: none;
-    color: white;
+    color: #b3b3b3;
   }
 
-.main-container{
-    margin-left: 0 !important;
+  .body-left-container>a:hover,.body-left-container>ul>a:hover{
+    text-decoration: none;
+    color: #ffffff;
   }
+
 body{
     height: 100vh ;
-    
+    overflow-x: hidden;
 }
 
 .left-menu-bar{
-    height: 100vh;
+  position: relative;
+  min-height: 100vmin;
+    max-height: 100vmax;
     background-color: black;
 }

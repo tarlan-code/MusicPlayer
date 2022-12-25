@@ -1,3 +1,55 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/SpotifyFont/Gotham-Medium.eot');
+    src: url('../fonts/SpotifyFont/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SpotifyFont/Gotham-Medium.woff2') format('woff2'),
+        url('../fonts/SpotifyFont/Gotham-Medium.woff') format('woff'),
+        url('../fonts/SpotifyFont/Gotham-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body{
+    font-family: 'Gotham';
+}
+
+.background{
+    background-image: url("../img/background.png") !important;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+    background-size: cover;
+    background-position: top right;
+}
+
 .logo{
-    width: 10vw;
+    font-family: 'Righteous', cursive;
+}
+
+.nav-link,.message{
+    white-space: nowrap;
+}
+
+.line{
+    width: 7px;
+    height: 130px;
+    background-color: white;
+}
+
+.footerline{
+    position: fixed;
+   bottom: 10%;
+   width: 100%;
+}
+.message{
+    color: white;
+    font-size: 50px;
+    font-family: "Gotham";
+}
+
+.nav-link:hover{
+    color: 	#b3b3b3 !important;
 }
