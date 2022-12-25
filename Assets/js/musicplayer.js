@@ -1,3 +1,3 @@
-$.get("musicplayer.html", function(data){
+$.get("../Page/musicplayer.html", function(data){
     $("#music-player").replaceWith(data);
 });
